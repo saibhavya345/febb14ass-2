@@ -1,0 +1,11 @@
+a=int(input("Enter a number: "))
+tot=0
+while a>0:
+    i=a%10
+    tot=tot+i
+    a=a//10
+print(tot)
+
+output:
+Enter a number:1234
+10
